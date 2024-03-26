@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.modal {
+.modal-body {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -25,22 +25,22 @@
 	justify-content:space-between;
 	align-items:center;
 }
-.header{
+.modal-header{
 	background-color: #50AC4F;
 	padding: 4px 8px;
 	color: #fff;
 }
 
 /* The Close Button */
-.close {
+.close-modal {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close-modal:hover,
+.close-modal:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
