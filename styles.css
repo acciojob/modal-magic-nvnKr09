@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.modal-body {
+.modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -14,7 +14,7 @@
 }
 
 /* Modal Content */
-.modal-content {
+.modal-body {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -27,7 +27,7 @@
 }
 .modal-header{
 	background-color: #50AC4F;
-	padding: 4px 8px;
+	padding: 14px;
 	color: #fff;
 }
 
